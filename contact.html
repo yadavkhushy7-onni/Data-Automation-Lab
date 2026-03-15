@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Data & Automation Lab for AI automation, dashboards, reporting, and data projects.">
+  <title>Contact | Data &amp; Automation Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">D&amp;A</span>
+        <span class="brand-text">Data &amp; Automation Lab</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="skills.html">Skills</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Hire Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inner-hero reveal">
+        <p class="eyebrow">Contact</p>
+        <h1>Let's build a workflow, dashboard, or automation that saves you time</h1>
+        <p class="hero-text">
+          Share your project details and this site can later be connected directly to email, n8n, or an API-based lead flow.
+        </p>
+      </section>
+
+      <section class="section section-compact">
+        <div class="contact-layout">
+          <form class="contact-form reveal" id="contact-form">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              <span>Project Type</span>
+              <select name="project-type" required>
+                <option value="">Select a service</option>
+                <option value="ai-automation">AI Workflow Automation</option>
+                <option value="data-analysis">Data Analysis</option>
+                <option value="power-bi">Power BI Dashboard</option>
+                <option value="process-automation">Business Process Automation</option>
+                <option value="data-cleaning">Data Cleaning and Reporting</option>
+                <option value="api-integration">API Integration / n8n Connection</option>
+              </select>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" placeholder="Tell me about your project or problem to solve" required></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Send Message</button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-card reveal">
+            <h3>Contact Details</h3>
+            <ul class="contact-list">
+              <li>
+                <span>Email</span>
+                <a href="mailto:yadavkhushy7@gmail.com">yadavkhushy7@gmail.com</a>
+              </li>
+              <li>
+                <span>LinkedIn</span>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">linkedin.com/in/your-profile</a>
+              </li>
+              <li>
+                <span>Upwork / Freelance</span>
+                <a href="https://www.upwork.com/" target="_blank" rel="noreferrer">upwork.com/freelancers/your-profile</a>
+              </li>
+            </ul>
+            <div class="contact-note">
+              <strong>Best fit for:</strong>
+              <p>Small businesses, startups, and professionals who want practical automation, reporting, and data systems.</p>
+            </div>
+            <div class="contact-note">
+              <strong>n8n / API ready:</strong>
+              <p>This website can be connected to an n8n webhook or backend API so lead forms, bookings, and inquiries trigger automations automatically.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
