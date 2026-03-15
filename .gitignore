@@ -1,0 +1,16 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local server and temp files
+*.log
+*.tmp
+*.temp
+
+# Local Codex app files
+.codex/
+
+# Optional environment files for future backend/API work
+.env
+.env.*
