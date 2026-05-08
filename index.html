@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ezkaam AI Solutions</title>
   <meta
     name="description"
-    content="Data & Automation Lab builds AI automations, Python solutions, dashboards, and data systems for small businesses and startups."
+    content="Ezkaam AI Solutions helps businesses automate workflows, analyze data, build modern web apps, and scale with AI-powered systems."
   >
-  <title>Data &amp; Automation Lab</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
   >
   <link rel="stylesheet" href="styles.css">
@@ -19,132 +19,379 @@
 <body>
   <div class="site-shell">
     <header class="topbar">
-      <a href="index.html" class="brand">
-        <span class="brand-mark">D&amp;A</span>
-        <span class="brand-text">Data &amp; Automation Lab</span>
+      <a class="brand" href="#hero">
+        <span class="brand-mark">EA</span>
+        <span class="brand-text">
+          <strong>Ezkaam AI</strong>
+          <small>Solutions</small>
+        </span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">
-        <span></span>
-        <span></span>
-      </button>
+
       <nav class="nav">
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="skills.html">Skills</a>
-        <a href="testimonials.html">Testimonials</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Hire Me</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#about">Why Us</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </nav>
+
+      <div class="topbar-actions">
+        <a class="button button-small" href="mailto:ezkaam.ai@gmail.com">Let's Talk</a>
+      </div>
     </header>
 
     <main>
-      <section class="hero hero-clean page-hero">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">AI automation, analytics, and reporting</p>
-          <h1>Cleaner systems, smarter dashboards, and automation that saves time.</h1>
+      <section class="hero reveal" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Premium AI, Data & Automation Services</p>
+          <div class="hero-hook-window">
+            <h1><span id="typedHook">We Don't Just Build Tools - We Build Automated Money Systems</span></h1>
+          </div>
           <p class="hero-text">
-            Data &amp; Automation Lab helps small businesses, startups, and professionals automate
-            repetitive work, understand their data, and build reporting systems that support real decisions.
+            We help startups and businesses automate workflows, generate leads, and scale using AI, data, and smart systems.
           </p>
+
           <div class="hero-actions">
-            <a class="button button-primary" href="contact.html">Start a Project</a>
-            <a class="button button-secondary" href="portfolio.html">See Projects</a>
+            <a class="button ripple-button" href="#contact">Start Automation</a>
+            <a class="button button-ghost ripple-button" href="#about">Get Free Demo</a>
+            <a class="button button-ghost ripple-button" href="#projects">See Live Projects</a>
+          </div>
+
+          <div class="hero-metrics">
+            <article>
+              <strong class="counter" data-target="32">0</strong>
+              <span>Projects delivered</span>
+            </article>
+            <article>
+              <strong class="counter" data-target="18">0</strong>
+              <span>Clients supported</span>
+            </article>
+            <article>
+              <strong><span class="counter" data-target="1400">0</span>+</strong>
+              <span>Automation hours saved</span>
+            </article>
           </div>
         </div>
-        <div class="hero-panel reveal">
-          <div class="metric-card metric-card-large">
-            <span class="metric-label">Professional Focus</span>
-            <strong>AI Automation &amp; Data Solutions Specialist</strong>
-            <p>
-              Practical freelance support for workflow automation, data analysis, Power BI dashboards,
-              API connections, and business process improvement.
-            </p>
-          </div>
-          <div class="hero-grid">
-            <article class="metric-card">
-              <span class="metric-value">Automation</span>
-              <span class="metric-label">n8n, Python, connected workflows</span>
-            </article>
-            <article class="metric-card">
-              <span class="metric-value">Dashboards</span>
-              <span class="metric-label">Power BI and client reporting</span>
-            </article>
-            <article class="metric-card">
-              <span class="metric-value">Analysis</span>
-              <span class="metric-label">Clean insights from raw data</span>
-            </article>
-            <article class="metric-card">
-              <span class="metric-value">APIs</span>
-              <span class="metric-label">Forms, systems, and automation hooks</span>
-            </article>
+
+        <div class="hero-visual">
+          <div class="orb orb-coral"></div>
+          <div class="orb orb-gold"></div>
+          <div class="dashboard-card tilt-card">
+            <div class="dashboard-top">
+              <span class="badge">AI Workflow</span>
+              <span class="status">Live Systems</span>
+            </div>
+
+            <div class="graph-bars">
+              <span style="--height: 52%"></span>
+              <span style="--height: 74%"></span>
+              <span style="--height: 42%"></span>
+              <span style="--height: 88%"></span>
+              <span style="--height: 65%"></span>
+            </div>
+
+            <div class="mini-panels">
+              <div class="mini-card">
+                <small>Automation</small>
+                <strong>n8n + APIs</strong>
+              </div>
+              <div class="mini-card">
+                <small>Insights</small>
+                <strong>Power BI / Data</strong>
+              </div>
+              <div class="mini-card wide">
+                <small>Customer Experience</small>
+                <strong>Bots for WhatsApp, Telegram &amp; Web</strong>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section section-compact">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Explore</p>
-          <h2>Visit each section as its own page</h2>
-        </div>
-        <div class="page-link-grid">
-          <a class="page-link-card reveal" href="about.html">
-            <span class="page-link-tag">About</span>
-            <h3>Who I am and how I work</h3>
-            <p>My background in Python, AI automation, analytics, and business problem solving.</p>
-          </a>
-          <a class="page-link-card reveal" href="services.html">
-            <span class="page-link-tag">Services</span>
-            <h3>Freelance offers for business needs</h3>
-            <p>Automation, dashboards, data cleaning, reporting, and API integration services.</p>
-          </a>
-          <a class="page-link-card reveal" href="portfolio.html">
-            <span class="page-link-tag">Portfolio</span>
-            <h3>Case-study style project examples</h3>
-            <p>Examples of dashboards, workflow automation, document processing, and analysis work.</p>
-          </a>
-          <a class="page-link-card reveal" href="skills.html">
-            <span class="page-link-tag">Skills</span>
-            <h3>Tools, platforms, and technical strengths</h3>
-            <p>Python, Power BI, n8n, APIs, reporting, and automation workflows.</p>
-          </a>
-          <a class="page-link-card reveal" href="testimonials.html">
-            <span class="page-link-tag">Testimonials</span>
-            <h3>Feedback and trust-building space</h3>
-            <p>Use this page for future client reviews from freelance platforms and direct work.</p>
-          </a>
-          <a class="page-link-card reveal" href="contact.html">
-            <span class="page-link-tag">Contact</span>
-            <h3>Start a conversation</h3>
-            <p>Share your project, automation problem, or dashboard need and get in touch directly.</p>
-          </a>
-        </div>
+      <section class="logos-strip reveal" aria-label="Capabilities">
+        <span>Python Development</span>
+        <span>Web Scraping</span>
+        <span>Dashboards</span>
+        <span>Automation</span>
+        <span>Chatbots</span>
+        <span>AI Content Systems</span>
+        <span>Web Apps</span>
       </section>
 
-      <section class="section section-compact">
-        <div class="split-feature">
-          <article class="story-card reveal">
-            <p class="eyebrow">Best Fit</p>
-            <h2>Built for businesses that want less manual work and clearer reporting</h2>
-            <p>
-              If you are spending too much time on repeated tasks, disconnected tools, or messy spreadsheets,
-              this site is designed to show exactly how I can help through automation and data systems.
-            </p>
+      <section class="section reveal" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>Everything You Need to Automate &amp; Scale - In One Place</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <h3>Python Development &amp; Web Scraping</h3>
+            <p>Build reliable scrapers, data pipelines, custom scripts, and backend tools tailored to your workflow.</p>
           </article>
-          <aside class="conversion-card reveal">
-            <p class="eyebrow">Next Step</p>
-            <h3>Make the website work like a lead system later</h3>
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <h3>Data Analytics &amp; Data Science</h3>
+            <p>Turn raw data into clear business insights with cleaning, analysis, forecasting, and reporting systems.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">03</span>
+            <h3>Power BI Dashboards &amp; Reports</h3>
+            <p>Create interactive dashboards that help teams track sales, operations, KPIs, and performance in real time.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">04</span>
+            <h3>Website &amp; Web App Development</h3>
+            <p>Launch custom websites and web apps with modern UI, responsive layouts, and business-first functionality.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">05</span>
+            <h3>Automation Workflows</h3>
+            <p>Connect tools with n8n, APIs, and custom logic to remove repetitive tasks and streamline operations.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">06</span>
+            <h3>Chatbots</h3>
+            <p>Deploy smart support and lead-generation bots across WhatsApp, Telegram, and web platforms.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-number">07</span>
+            <h3>AI Automation for Media</h3>
+            <p>Convert scripts into audio and subtitles, plus lightweight video edits for ads, content, and social media assets.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="workflow">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Workflow Snapshot</p>
+            <h2>From data to decisions, your business can run like a smart system.</h2>
+          </div>
+          <p class="section-copy">
+            This simple execution loop shows how we connect lead capture, automation, dashboards, and AI responses into one revenue-ready pipeline.
+          </p>
+        </div>
+
+        <div class="workflow-card">
+          <svg class="workflow-diagram" viewBox="0 0 920 280" role="img" aria-label="Interactive workflow diagram">
+            <path class="workflow-line" d="M170 140 C230 140, 250 140, 310 140 S390 140, 450 140 S530 140, 590 140 S670 140, 730 140" />
+            <g class="workflow-node" tabindex="0" transform="translate(70 80)">
+              <rect width="150" height="120" rx="28"></rect>
+              <text x="75" y="52">Lead Data</text>
+              <text x="75" y="78">Scraping / APIs</text>
+            </g>
+            <g class="workflow-node" tabindex="0" transform="translate(250 80)">
+              <rect width="150" height="120" rx="28"></rect>
+              <text x="75" y="52">Automation</text>
+              <text x="75" y="78">n8n / Triggers</text>
+            </g>
+            <g class="workflow-node" tabindex="0" transform="translate(430 80)">
+              <rect width="150" height="120" rx="28"></rect>
+              <text x="75" y="52">AI Actions</text>
+              <text x="75" y="78">Bots / Content</text>
+            </g>
+            <g class="workflow-node" tabindex="0" transform="translate(610 80)">
+              <rect width="150" height="120" rx="28"></rect>
+              <text x="75" y="52">Insights</text>
+              <text x="75" y="78">Dashboards / ROI</text>
+            </g>
+          </svg>
+        </div>
+
+        <div class="before-after-card">
+          <div class="before-after-header">
+            <div>
+              <p class="eyebrow">Before / After</p>
+              <h3>See the shift from manual chaos to automated flow.</h3>
+            </div>
+            <p class="section-copy">Drag the slider to compare old-school operations with an automation-first setup.</p>
+          </div>
+
+          <div class="comparison-summary">
+            <article class="summary-card summary-before">
+              <span>Before</span>
+              <strong>Manual follow-ups, delayed reports, scattered tools.</strong>
+            </article>
+            <article class="summary-card summary-after">
+              <span>After</span>
+              <strong>Automated lead flow, instant insights, and AI-powered support.</strong>
+            </article>
+          </div>
+
+          <div class="comparison" id="comparison">
+            <div class="comparison-panel comparison-before">
+              <div class="comparison-visual manual-visual" aria-hidden="true">
+                <div class="visual-window">
+                  <div class="visual-window-top">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div class="manual-columns">
+                    <div class="manual-card">
+                      <small>Lead Sheet</small>
+                      <strong>Copy data by hand</strong>
+                    </div>
+                    <div class="manual-card">
+                      <small>Client Follow-up</small>
+                      <strong>Send each message manually</strong>
+                    </div>
+                    <div class="manual-card">
+                      <small>Reports</small>
+                      <strong>Wait for end-of-day update</strong>
+                    </div>
+                  </div>
+                  <div class="manual-arrows">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="comparison-panel comparison-after" id="comparisonAfter">
+              <div class="comparison-visual automation-visual" aria-hidden="true">
+                <div class="visual-window">
+                  <div class="visual-window-top">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                  </div>
+                  <div class="automation-flow">
+                    <div class="flow-node">Leads</div>
+                    <div class="flow-node">n8n</div>
+                    <div class="flow-node">AI Bot</div>
+                    <div class="flow-node">Dashboard</div>
+                  </div>
+                  <div class="automation-results">
+                    <div class="result-pill">24/7 Replies</div>
+                    <div class="result-pill">Live Metrics</div>
+                    <div class="result-pill">Auto Follow-up</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input id="comparisonRange" class="comparison-range" type="range" min="0" max="100" value="55" aria-label="Before and after comparison slider">
+            <div class="comparison-handle" id="comparisonHandle"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent reveal" id="about">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Why Ezkaam AI</p>
+            <h2>Not Just Freelancers - A Complete AI Execution Team</h2>
+          </div>
+          <p class="section-copy">
+            Whether you need lead scraping, business dashboards, AI-powered content automation, or customer support bots,
+            the focus stays the same: build systems that genuinely reduce workload and create measurable impact.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Business-Focused Delivery</h3>
+            <p>Solutions are designed around outcomes, not just code or tools.</p>
+          </article>
+          <article class="feature-card">
+            <h3>End-to-End Capability</h3>
+            <p>From scraping and dashboards to bots and websites, the stack works together.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Modern Automation Mindset</h3>
+            <p>We use AI, APIs, and workflow orchestration to remove friction and speed up growth.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Real Systems. Real Results.</h2>
+        </div>
+
+        <div class="project-filters" role="tablist" aria-label="Project filters">
+          <button class="filter-chip is-active" type="button" data-filter="all">All</button>
+          <button class="filter-chip" type="button" data-filter="automation">Automation</button>
+          <button class="filter-chip" type="button" data-filter="data">Data</button>
+          <button class="filter-chip" type="button" data-filter="bots">Bots</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-category="automation data">
+            <p class="project-tag">Lead Generation</p>
+            <h3>Automated Data Scraping System for Business Leads</h3>
+            <p>Custom scraping workflows that collect, clean, and structure high-value prospect data for outreach and sales teams.</p>
+          </article>
+          <article class="project-card" data-category="data">
+            <p class="project-tag">Analytics</p>
+            <h3>Interactive Power BI Dashboard for Sales Analysis</h3>
+            <p>Visual dashboards with filters, KPI tracking, and trend analysis for faster decision-making.</p>
+          </article>
+          <article class="project-card" data-category="bots automation">
+            <p class="project-tag">Support Automation</p>
+            <h3>Telegram &amp; WhatsApp Bots for Customer Support</h3>
+            <p>Automated messaging systems that improve response time and handle common user queries around the clock.</p>
+          </article>
+          <article class="project-card" data-category="automation">
+            <p class="project-tag">Workflow Design</p>
+            <h3>End-to-End Automation Workflow using n8n</h3>
+            <p>Connected business tools, forms, databases, and APIs into a seamless automated process.</p>
+          </article>
+          <article class="project-card" data-category="automation">
+            <p class="project-tag">AI Media</p>
+            <h3>AI-based Script to Voice &amp; Subtitle Generator</h3>
+            <p>Generated voiceovers and subtitle-ready outputs from scripts for content pipelines and marketing production.</p>
+          </article>
+          <article class="project-card" data-category="automation data">
+            <p class="project-tag">Digital Presence</p>
+            <h3>Custom Business Websites &amp; Web Apps</h3>
+            <p>Clean, responsive digital products built around conversion, usability, and operational needs.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section cta-section reveal" id="contact">
+        <div class="cta-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build the system your business has been missing.</h2>
             <p>
-              This portfolio can be connected to n8n webhooks, forms, or backend APIs later so new inquiries
-              automatically create leads, send emails, and start your workflows.
+              Reach out for websites, dashboards, chatbots, automation workflows, scraping systems, or AI-powered content tools.
             </p>
-            <a class="button button-primary" href="contact.html">Request a Quote</a>
-          </aside>
+          </div>
+
+          <div class="contact-stack">
+            <a class="contact-link" href="mailto:ezkaam.ai@gmail.com">
+              <span>Email</span>
+              <strong>ezkaam.ai@gmail.com</strong>
+            </a>
+            <a class="contact-link" href="#" aria-disabled="true">
+              <span>LinkedIn</span>
+              <strong>Add your profile link here</strong>
+            </a>
+            <a class="contact-link" href="#" aria-disabled="true">
+              <span>Upwork</span>
+              <strong>Add your profile link here</strong>
+            </a>
+          </div>
         </div>
       </section>
     </main>
   </div>
 
   <script src="script.js"></script>
+  <h2>My YouTube Video</h2>
+
+<h2>My YouTube Video</h2>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/SMv8gp3I4Ao"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
 </body>
 </html>
